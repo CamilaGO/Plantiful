@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="my_string">App desarrollada por Camila Gonzalez</string>
+    <string name="logo">Logo de Plantiful</string>
+    <string name="boton1">Menu</string>
+    <string name="boton2">Pedido</string>
+    <string name="titulo1">Menu</string>
+    <string name="titulo2">Tu pedido</string>
+    <string name="Home">Home</string>
+    <string name="Clean">Limpiar Pedido</string>
+    <string name="Shop">Hacer Pedido</string>
+</resources>
