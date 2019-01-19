@@ -19,6 +19,9 @@ class OrderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order)
 
+        val compras: ListView = findViewById(R.id.listview_2)
+
+
     }
     fun onClick_Home(view: View){
         val intent = Intent(this, MainActivity::class.java)

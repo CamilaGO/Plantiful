@@ -16,7 +16,7 @@ import com.example.camila.lab2.MainActivity
 class MenuActivity : AppCompatActivity() {
 
     val arreglo = arrayOf("Matcha Latte   [Q42.00]", "Buddha Bowl   [Q72.00]", "Quinoa Sushi  [Q60.00]", "Tumeric Soup    [Q45.00]", "Falafel Wrap    [Q68.00]")
-    val app: MyAplication = MyAplication() //Se instancia un elementos de tipo MyApplication
+    //val app: MyAplication = MyAplication() //Se instancia un elementos de tipo MyApplication
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +36,7 @@ class MenuActivity : AppCompatActivity() {
                 // valor de objeto que es presionado
                 val itemValue = listViewMenu.getItemAtPosition(position) as String
 
-                val order: MyMenuOrder = app.getOrder()
+                val order: MyMenuOrder = (this.application as MyAplication).getOrder()
                 order.add(itemValue)
                 adapter.notifyDataSetChanged()
 
