@@ -13,11 +13,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
+    //Boton para ver el menu
     fun onClick_Menu(view: View){
         val intent = Intent(this, MenuActivity::class.java)
         startActivity(intent)
     }
+    //Boton para ver el pedido
     fun onClick_Pedido(view: View){
         val intent = Intent(this, OrderActivity::class.java)
         startActivity(intent)

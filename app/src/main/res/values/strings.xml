@@ -9,4 +9,5 @@
     <string name="Home">Home</string>
     <string name="Clean">Limpiar Pedido</string>
     <string name="Shop">Hacer Pedido</string>
+    <string name="header">Encabezado para pedidos</string>
 </resources>
